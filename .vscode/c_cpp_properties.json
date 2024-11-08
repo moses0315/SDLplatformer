@@ -4,21 +4,20 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
+                "C:/SDL2/include",
                 "C:/SDL2_image-2.8.2/include",
-
                 "C:/SDL2_mixer-2.8.0/include",
-                "C:/SDL2/include" // SDL2 헤더 파일 경로
+                "C:/SDL2_ttf-2.22.0/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE",
-                "SDL_MAIN_HANDLED"
+                "_UNICODE"
             ],
-            "compilerPath": "C:/Program Files/mingw64/bin/g++.exe",
+            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
             "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
