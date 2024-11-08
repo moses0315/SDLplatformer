@@ -28,12 +28,12 @@ bool Engine::Init()
 
 void Engine::Update()
 {
-    SDL_Log("??????SSDASD");
 }
 
 void Engine::Render()
 {
     SDL_SetRenderDrawColor(m_Renderer, 124, 210, 253, 255);
+    SDL_RenderClear(m_Renderer);
     SDL_RenderPresent(m_Renderer);
 }
 
