@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe 활성 파일 빌드",
+            "command": "C:\\Program Files\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-IC:/SDL2/include",
+                "-LC:/SDL2/lib/x64",
+
+                "-IC:/SDL2_image-2.8.2/include",
+                "-IC:/SDL2_mixer-2.8.0/include",
+                "-LC:/SDL2_image-2.8.2/lib/x64",
+                "-LC:/SDL2_mixer-2.8.0/lib/x64",
+                
+                "-lSDL2",
+                "-lSDL2main", 
+                "-lSDL2_image",
+                "-lSDL2_mixer",
+                "-mwindows"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "디버거에서 생성된 작업입니다."
+        }
+    ],
+    "version": "2.0.0"
+}

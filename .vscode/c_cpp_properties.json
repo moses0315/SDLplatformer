@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/SDL2_image-2.8.2/include",
+
+                "C:/SDL2_mixer-2.8.0/include",
+                "C:/SDL2/include" // SDL2 헤더 파일 경로
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "SDL_MAIN_HANDLED"
+            ],
+            "compilerPath": "C:/Program Files/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
