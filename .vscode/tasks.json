@@ -3,13 +3,16 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe 활성 파일 빌드",
-            "command": "C:\\mingw64\\bin\\g++.exe",
+            "command": "C://mingw64//bin//g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "C:/Users/moses/Documents/test/test.exe",
+
+                "C:/Users/moses/Documents/test/Main.cpp",
+                "C:/Users/moses/Documents/test/src/Core/Engine.cpp", 
+
                 "-IC:/SDL2/include",
                 "-LC:/SDL2/lib/x64",
 

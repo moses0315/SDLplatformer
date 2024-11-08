@@ -105,7 +105,7 @@ int main(int argc, char* argv[]) {
     }
 
     // 텍스트 생성
-    SDL_Color textColor = {255, 255, 255, 255};
+    SDL_Color textColor = {0, 255, 0, 255};
     SDL_Surface* textSurface = TTF_RenderText_Solid(font, "Hello, SDL!", textColor);
     SDL_Texture* textTexture = SDL_CreateTextureFromSurface(renderer, textSurface);
     SDL_FreeSurface(textSurface);

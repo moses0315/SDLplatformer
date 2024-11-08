@@ -7,7 +7,8 @@
                 "C:/SDL2/include",
                 "C:/SDL2_image-2.8.2/include",
                 "C:/SDL2_mixer-2.8.0/include",
-                "C:/SDL2_ttf-2.22.0/include"
+                "C:/SDL2_ttf-2.22.0/include",
+                "${workspaceFolder}/src/Core"
             ],
             "defines": [
                 "_DEBUG",
